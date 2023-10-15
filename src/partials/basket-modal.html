@@ -1,68 +1,86 @@
-<div class="modal" id = "basket-modal">
-    <div class="modal__content basket-modal" >
-        <h3>Ваш заказ</h3>
+<div class="modal" id="basket-modal">
+  <div class="modal__content basket-modal">
+    <h3>Ваш заказ</h3>
 
-        <img src="/assets/images/close-white.png" alt="close" class="form__close">
+    <img
+      src="./assets/images/close-white.png"
+      alt="close"
+      class="form__close"
+    />
 
-        <div data-basket-empty class="basket-modal ">
-            <div class="basket__empty">
-                Ваша корзина пока пуста!
-            </div>
-        </div>  
+    <div data-basket-empty class="basket-modal">
+      <div class="basket__empty">Ваша корзина пока пуста!</div>
+    </div>
 
-        <div class="basket__catalog">
+    <div class="basket__catalog">
+      <div class="basket__wraper">
+        <div class="basket__product" data-id="1">
+          <div class="basket__left">
+            <img src="./assets/images/test-db.jpg" alt="" class="basket__img" />
+          </div>
 
-            <div class="basket__wraper">
+          <div class="basket__right">
+            <div class="basket__title">Здесь название продута</div>
 
-                <!-- <div class="basket__product" data-id="1">
-                    <div class="basket__left">    
-                        <img src="/assets/images/test-db.jpg" alt="" class="basket__img">
-                    </div>
-    
-                    <div class="basket__right">   
-                        <div class="basket__title">Здесь название продута</div>
-                        
-                        <div class="basket__block"> <p>Количесво: </p>
-                            <div class="card__button-count" data-counter__modal=""> 1</div>
-                        </div>
-                    
-                        <div class="basket__price">Цена: <p class="basket__price-inf"> 100 BYN </p></div>
-    
-                        <div class="baskrt__color">Цвет: <div class="blok__color"></div></div>
-    
-                        <div class="baskrt__size">Размер: <p> 38 </p> </div>
-
-                        <button class="basket__delete" data-delete=""> <img src="/assets/images/close.png"> </button>
-                    </div>    
-                </div> -->
-
+            <div class="basket__block">
+              <p>Количесво:</p>
+              <div class="card__button-count" data-counter__modal="">1</div>
             </div>
 
-            <div class="line " id = "line"></div>
-
-            <div class="basket__info none" id = "basket__totalPrice">
-                <div class="basket__delivery">Доставка: <p class="basket__deliveryP ">Беспалатно</p></div>
-                <div class="basket__totolPrice">Итог: <p  class = "basket__price-total">0 </p>  </div>
-            </div> <!--basket__info-->
-
-            <div class="line "  id = "line"> </div>
-
-            <div class="basket__makinOrder none" id = "order-form">
-                <p>Оформление заказа</p>
-                <form action="">
-                    <div class="form__group form__grop--md form__grop--mе ">
-                        <input class="form__control form__control--black" type="tel" placeholder="Введите телефон"/>
-                        <span class = "form__line"></span>
-                    </div>
-                </form>
-
-                <div class="btn basket--btn">
-                    <button class="btn-reg"> Закакзать </button>
-                </div>
-
+            <div class="basket__price">
+              Цена:
+              <p class="basket__price-inf">100 BYN</p>
             </div>
 
-        </div> <!--basket__catalog-->
+            <div class="baskrt__color">
+              Цвет:
+              <div class="blok__color"></div>
+            </div>
 
-    </div> <!--modal__content-->
-</div>  <!--modal-->
+            <div class="baskrt__size">
+              Размер:
+              <p>38</p>
+            </div>
+
+            <button class="basket__delete" data-delete="">
+              <img src="./assets/images/close.png" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="line" id="line"></div>
+
+      <div class="basket__info none" id="basket__totalPrice">
+        <div class="basket__delivery">
+          Доставка:
+          <p class="basket__deliveryP">Беспалатно</p>
+        </div>
+        <div class="basket__totolPrice">
+          Итог:
+          <p class="basket__price-total">0</p>
+        </div>
+      </div>
+
+      <div class="line" id="line"></div>
+
+      <div class="basket__makinOrder none" id="order-form">
+        <p>Оформление заказа</p>
+        <form action="">
+          <div class="form__group form__grop--md form__grop--mе">
+            <input
+              class="form__control form__control--black"
+              type="tel"
+              placeholder="Введите телефон"
+            />
+            <span class="form__line"></span>
+          </div>
+        </form>
+
+        <div class="btn basket--btn">
+          <button class="btn-reg">Закакзать</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

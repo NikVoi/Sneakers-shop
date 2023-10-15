@@ -1,0 +1,19 @@
+.comment{
+  
+    font-size: $fs18px;
+    p{
+        display: inline-block;
+        opacity: .8;
+        font-weight: normal;
+    }
+    &__availability{padding-bottom: 10px;}
+    &__productCode{padding-bottom: 10px;}
+    &__tags{padding-bottom: 10px;}
+    &__text{
+        font-weight: normal;
+        padding-bottom: 10px;
+    }
+    &__gender{
+        padding-bottom: 10px;
+    }
+}

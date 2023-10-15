@@ -1,0 +1,131 @@
+h3{
+    margin-bottom: 15px;
+}
+.none{
+    display: none   ;
+}
+.basket-modal{
+    font-size: $fs17px;
+    max-width: 850px;
+    overflow: auto   ;
+}
+
+.basket__empty{
+    margin: 0 auto;
+    margin-top: 25px;   
+    padding-top: 12px;
+
+
+    width: 300px;
+    height: 50px;
+
+    background-color: $grey;
+
+    text-align: center;
+}
+
+.line{
+    width: 100%;
+    opacity: .6;
+    border-bottom: 1px solid $black;
+}
+
+.basket__product{
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.basket__left{
+    width: 200px;
+    height: 200px;
+}
+.basket__img{
+    width: 200px;
+    height: 200px;
+}
+
+.basket__right{
+    width: 80%;
+    margin: 10px 10px;
+    position: relative;
+}
+.basket__title{
+    margin-bottom: 10px;
+}
+.basket__price{
+    margin-bottom: 10px;
+    p{
+        display: inline-block;
+    }
+}
+
+.basket__block{
+    display: flex;
+    p{
+        display: flex;
+        font-weight: bold;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+    }
+    margin-bottom: 10px;
+}
+.baskrt__color{
+ display: flex;
+ margin-bottom: 10px;
+}
+.blok__color{
+    margin-left: 5px;
+    margin-top: 1px;
+    display: inline-block;
+
+    width: 15px;
+    height: 15px;
+
+}
+
+.baskrt__size{
+    p{
+        display: inline-block;
+    }
+}
+
+.basket__catalog{
+    color: $balck-text;
+    background: $white;
+    
+}
+
+.basket__info{
+    margin: 10px 10px;
+    p{display: inline-block;}
+
+}
+
+.basket__delivery{
+   margin-bottom: 10px;
+
+}
+.free{
+    color: green
+}
+
+.basket__totolPrice{p{color: orange;}}
+
+.basket__makinOrder{
+    margin: 10px 10px;
+    p{
+        padding-bottom: 10px;
+    }
+}
+
+.basket--btn{
+    margin-bottom: 10px;
+}
+
+.basket__gender{
+    p{
+        display: inline-block;
+    }
+    margin-bottom: 10px;
+}

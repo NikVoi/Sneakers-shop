@@ -1,0 +1,45 @@
+.social{
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    a{
+        color: $black;
+    }
+    a:hover{
+        transition: .3s;
+        color: $main-color;
+    }
+    &__ico{
+        opacity: .8;
+        padding-top: 3px;
+        padding-left: 5px;
+    }
+    &__star{
+        display: flex;
+        width: 33.33%;
+    }
+    // Рейтинг звезд узать как сделать
+    &__starImg{
+        padding-top: 3px;
+        cursor: pointer;
+        padding-right: 10px;
+    }
+    &__star::after{
+        content: "";
+        padding-left: 15px;
+        border-right: 1px solid $black;
+    }
+    &__review{
+        padding-left: 10px;
+        width: 33.33%;
+    }
+    &__review::after{
+        content: "";
+        padding-left: 25px;
+        border-right: 1px solid $black;
+    }
+    &__share{
+        width: 33.33%;
+    }
+}
